@@ -10,7 +10,6 @@ import {
   serverTimestamp,
 } from "firebase/firestore";
 
-import "./App.css";
 import { auth, db } from "./firebase";
 import { useForm } from "react-hook-form";
 import { createUserWithEmailAndPassword, signOut } from "firebase/auth";
